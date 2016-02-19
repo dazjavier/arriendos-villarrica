@@ -1,0 +1,274 @@
+/*
+	#f1f2eb 
+	#339cbe
+	#1a658c 
+	#073859 
+	#021725 
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#bgHeader {
+	background-size: cover;
+	background-image: url('../img/bg-header.jpg');
+	max-width: 100%;
+	min-height: 600px;
+	color: white;
+}
+
+header {
+	padding: 20px !important;
+	box-sizing: border-box;
+	min-height: 100%;
+}
+
+.logo {
+	margin-top: 15px;
+}
+.navbar li {
+	display: inline-block;
+	list-style: none;
+	padding: 20px;
+	font-size: 14px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	border-bottom: 3px solid transparent;
+}
+.navbar li:hover {
+	border-bottom: 3px solid #339cbe;
+}
+.navbar li a {
+	color: white;
+	text-decoration: none;
+}
+.active {
+	border-bottom: 3px solid #339cbe !important;
+}
+#bienvenida {
+	text-align: center;
+	margin-top: 130px;
+}
+
+#bienvenida h1 {
+	max-width: 600px;
+	margin: 60px auto;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+#bienvenida a.explora {
+	padding: 20px;
+	background: #339cbe;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-decoration: none;
+	border-radius: 3px;
+	width: 120px;
+	display: block;
+	margin: 0 auto;
+	transition: all .4s;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-o-transition: all .4s;
+}
+#bienvenida a.explora:hover {
+	background: #3EBDE8;
+	box-shadow: 0 5px 10px rgba(0,0,0,.25);
+}
+#bgCasasPopulares {
+	max-width: 100%;
+	min-height: 430px;
+	background: #f1f2eb;
+}
+#bgCasasPopulares h3 {
+	text-align: center;
+	font-family: 'Museo Sans', sans-serif;
+	color: #1a658c;
+	padding: 10px;
+}
+.casas_popu li {
+	position: relative;
+	min-width: 210px;
+	min-height: 280px;
+	list-style: none;
+	background: white;
+	border-radius: 0 0 4px 4px;
+}
+.casas_popu li #img {
+	min-width: 210px;
+	min-height: 150px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 4px 4px 0 0;
+	display: block;
+}
+
+.casas_popu li a.title{
+	font-size: 16px;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 16px;
+	color: #021725;
+}
+.casas_popu li p.capacidad {
+	display: block;
+	padding: 0 10px;
+	font-size: 12px;
+	color: #999;
+	margin: 0;
+}
+
+.casas_popu li p.precio {
+	color: #1a658c;
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	font-size: 22px;
+	margin: 0;
+}
+.casas_popu li p.precio span {
+	font-size: 12px;
+	color: #339cbe;
+}
+
+#bgComoArrendar {
+	max-width: 100%;
+	min-height: 450px;
+}
+
+#bgComoArrendar h3 {
+	color: #073859;
+	text-align: center;
+	padding: 10px;
+	font-weight: 500;
+	font-family: 'Museo Sans', sans-serif;
+}
+
+#icon-search {
+	width: 114px;
+	height: 102px;
+	background: transparent url('../img/icon-search.png') no-repeat center  center;
+	margin: 0 auto;
+}
+#icon-choose {
+	width: 101px;
+	height: 102px;
+	background: transparent url('../img/icon-choose.png') no-repeat center center;
+	margin: 0 auto;
+}
+#icon-travel {
+	width: 106px;
+	height: 102px;
+	background: transparent url('../img/icon-travel.png') no-repeat center center;
+	margin: 0 auto;
+}
+.pasos {
+	background: #fff url('../img/bg-como-arrendar.png') no-repeat center center;
+	text-align: center;
+	list-style: none;
+	font-family: 'Museo Sans', sans-serif;
+}
+.pasos h4 {
+	color: #073859;
+	margin-top: 10px;
+}
+.pasos li p {
+	max-width: 210px;
+	margin: 0 auto;
+	text-align: justify;
+	color: #021725;
+}
+#bgGaleria {
+	background: #1a658c;
+	color: white;
+	min-height: 250px;
+	text-align: center;
+	font-family: 'Museo Sans', sans-serif;
+}
+#bgGaleria h3 {
+	padding-top: 20px;
+	
+}
+#bgGaleria h5 {
+	color: #6dadcf;
+	margin-top: -10px;
+	font-size: 18px;
+	font-weight: 500;
+}
+#bgGaleria a.galeria {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+	width: 150px;
+	font-size: 12px;
+	margin: 40px auto;
+	background: #339cbe;
+	text-transform: uppercase;
+	border-radius: 3px;
+	transition: all .4s;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-o-transition: all .4s;
+}
+#bgGaleria a.galeria:hover {
+	background: #3AACD2;
+	box-shadow: 0 5px 10px rgba(0,0,0,.25);
+}
+#bgFooter {
+	background: #021725;
+	min-height: 260px;
+	font-family: 'Museo sans', sans-serif;
+}
+
+#bgFooter div {
+	margin-top: 20px;
+}
+
+.logo-footer {
+	margin-top: 110px !important;
+}
+
+#bgFooter li{
+	list-style: none;
+}
+
+.menu-footer li {
+	margin: 0;
+}
+.menu-footer li a {
+	text-decoration: none;
+	color: white;
+	font-weight: 300;
+}	
+.sociales-footer li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.contacto-footer li {
+	width: 220px;
+	line-height: 24px;
+}
+.contacto-footer li a {
+	font-size: 12px;
+	vertical-align: top;
+	text-decoration: none;
+	margin-left: 5px;
+}
+h6 {
+	color: #2b4556;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+}
+@media only screen and (max-width: 1000px){
+	.pasos {
+		background: #fff;	
+	}
+}
